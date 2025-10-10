@@ -33,7 +33,7 @@ const App = () => {
 
   
 
-
+ 
 // Create form fields for name, amount, category, and date.
 // On submit: validate inputs, add a new expense object to the state array.
 // Clear the form after submission.
@@ -41,8 +41,6 @@ const App = () => {
 // Weeks Calculations
 
   return (
-
-    
     <>
     <div className='bg-zinc-200 w-full flex items-center flex-col gap-5 ' >
     <h1 className='text-3xl text-center text-8xl font-bold mb-4 p-4'>Add New Expenses</h1>
