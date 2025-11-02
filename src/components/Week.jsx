@@ -2,12 +2,10 @@ import React from 'react'
 import { useState } from 'react';
 import Bars from './Bars';
 
-const Week = () => {
+const Week = ({ weeksInMonths }) => {
 
-    
-    
+  const weeks = weeksInMonths()
 
-  const weeks  = weeksInMonths()
   console.log(weeks);
   
 
